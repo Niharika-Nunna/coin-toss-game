@@ -1,0 +1,91 @@
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 12px;
+  height: 40%;
+  width: 65%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+  color: #a35200;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 600;
+}
+
+.toss-coin {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  border-style: none;
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 14px;
+  font-family: "Roboto";
+  padding: 8px;
+  border-radius: 8px;
+  height: 35px;
+  width: 110px;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.count-container {
+  display: flex;
+}
+
+.count {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .card-container {
+    width: 85%;
+    height: 65%;
+    padding: 10px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .toss-coin {
+    height: 100px;
+    width: 100px;
+  }
+  .button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .count-container {
+    flex-direction: column;
+  }
+  .count {
+    font-size: 14px;
+  }
+}
